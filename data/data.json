@@ -1,0 +1,193 @@
+[{
+        "name": "React",
+        "url": "https://reactjs.org/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Sass",
+        "url": "https://sass-lang.com/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Prettier",
+        "url": "https://prettier.io/",
+        "type": "Tools",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Eslint",
+        "url": "https://eslint.org/",
+        "type": "Tools",
+        "stage": "Adopt"
+    },
+    {
+        "name": "React testing library",
+        "url": "https://testing-library.com/docs/react-testing-library/intro/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Storybook",
+        "url": "https://storybook.js.org/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Jest",
+        "url": "https://jestjs.io/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Next.js",
+        "url": "https://nextjs.org/",
+        "type": "Frameworks",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Webpack",
+        "url": "https://webpack.js.org/",
+        "type": "Tools",
+        "stage": "Adopt"
+    },
+    {
+        "name": "PostCSS (over Sass)",
+        "url": "https://postcss.org/",
+        "type": "Tools",
+        "stage": "Trial"
+    },
+    {
+        "name": "Storybook A11y",
+        "url": "https://storybook.js.org/addons/@storybook/addon-a11y/",
+        "type": "Tools",
+        "stage": "Trial"
+    },
+    {
+        "name": "Storybook Performance",
+        "url": "https://storybook.js.org/addons/storybook-addon-performance/",
+        "type": "Tools",
+        "stage": "Trial"
+    },
+    {
+        "name": "Remix",
+        "url": "https://remix.run/",
+        "type": "Frameworks",
+        "stage": "Assess"
+    },
+    {
+        "name": "AstroJS",
+        "url": "https://astro.build/",
+        "type": "Frameworks",
+        "stage": "Assess"
+    },
+    {
+        "name": "Vitest",
+        "url": "https://vitest.dev/",
+        "type": "Frameworks",
+        "stage": "Assess"
+    },
+    {
+        "name": "htm",
+        "url": "https://github.com/developit/htm",
+        "type": "Frameworks",
+        "stage": "Assess"
+    },
+    {
+        "name": "Bit",
+        "url": "https://bit.cloud/",
+        "type": "Tools",
+        "stage": "Assess"
+    },
+    {
+        "name": "Storybook Interactions",
+        "url": "https://storybook.js.org/addons/@storybook/addon-interactions/",
+        "type": "Frameworks",
+        "stage": "Assess"
+    },
+    {
+        "name": "Deno",
+        "url": "https://deno.land/",
+        "type": "Tools",
+        "stage": "Assess"
+    },
+    {
+        "name": "esbuild",
+        "url": "https://esbuild.github.io/",
+        "type": "Tools",
+        "stage": "Assess"
+    },
+    {
+        "name": "rollup",
+        "url": "https://rollupjs.org/guide/en/",
+        "type": "Tools",
+        "stage": "Assess"
+    },
+    {
+        "name": "Grunt",
+        "url": "https://gruntjs.com/",
+        "type": "Tools",
+        "stage": "Hold"
+    },
+    {
+        "name": "Gulp",
+        "url": "https://gulpjs.com/",
+        "type": "Tools",
+        "stage": "Hold"
+    },
+    {
+        "name": "LESS",
+        "url": "https://lesscss.org/",
+        "type": "Tools",
+        "stage": "Hold"
+    },
+    {
+        "name": "TDD",
+        "url": "https://lesscss.org/",
+        "type": "Techniques",
+        "stage": "Hold"
+    },
+    {
+        "name": "BDD",
+        "url": "https://lesscss.org/",
+        "type": "Techniques",
+        "stage": "Trial"
+    },
+    {
+        "name": "Performance",
+        "url": "https://lesscss.org/",
+        "type": "Techniques",
+        "stage": "Assess"
+    },
+    {
+        "name": "AWS",
+        "url": "https://www.amazon.com/",
+        "type": "Platforms",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Azure",
+        "url": "https://www.azure.com/",
+        "type": "Platforms",
+        "stage": "Adopt"
+    },
+    {
+        "name": "Fly",
+        "url": "https://fly.io/",
+        "type": "Platforms",
+        "stage": "Trial"
+    },
+    {
+        "name": "Cloudflare",
+        "url": "https://www.cloudflare.com/",
+        "type": "Platforms",
+        "stage": "Assess"
+    }
+]

@@ -1,0 +1,199 @@
+:root {
+	--hs-links: 48 100%;
+
+	--colour-primary: hsl(249, 46%, 54%);
+	--colour-primary-hover: hsl(249, 68%, 54%);
+	--colour-primary-light: hsl(249, 68%, 84%);
+	--colour-primary-xlight: hsl(249, 68%, 98%);
+
+	--colour-foreground: hsl(0, 0%, 100%);
+	--colour-background: hsl(278, 73%, 19%);
+
+	--colour-links: hsl(var(--hs-links) 50%);
+	--colour-links-hover: hsl(var(--hs-links) 45%);
+
+	--colour-border: hsl(249, 54%, 54%);
+
+	/* --colour-invalid: hsl(356, 100%, 71%); */
+	--colour-invalid: hsl(7, 75%, 48%);
+	--colour-invalid-light: hsl(12, 100%, 98%);
+	--colour-invalid-dark: hsl(7, 91%, 37%);
+
+	--colour-success: hsl(180, 86%, 27%);
+	--colour-success-light: hsl(180, 45%, 98%);
+	--colour-success-dark: hsl(185, 100%, 19%);
+
+	--colour-light: hsl(210, 50%, 98%);
+	--colour-grey: hsl(0, 0%, 83%);
+	--colour-mid: hsl(0, 0%, 61%);
+	--colour-dark: hsl(0, 0%, 40%);
+
+	--box-shadow: 0 0 20px 2px rgb(0 0 0 / 10%);
+	--gradient-background: radial-gradient(circle,
+			rgba(152, 11, 238, 1) 0%,
+			rgba(118, 15, 181, 1) 35%,
+			rgba(58, 13, 85, 1) 100%);
+	--font-body: Poppins, -apple-system, "Segoe UI", Helvetica Neue, Helvetica,
+		Roboto, Arial, sans-serif, system-ui, "Apple Color Emoji",
+		"Segoe UI Emoji";
+	--font-display: var(--font-body);
+	--base: 1.5rem;
+	--radius: 12px;
+	--form-radius: 4px;
+
+	--gutter: var(--base);
+
+	/* Funky stuff for the borders and shadows */
+	--funky-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	--funky-radius-2: 15px 225px 15px 255px/255px 15px 225px 15px;
+	--funky-shadow: 1em 1.5em 1.5em -1em rgb(0 0 0 / 50%);
+	--funky-shadow-small: .5em 1em 1em -.5em rgb(0 0 0 / 30%);
+}
+
+.toggle-mode {
+	--colour-background: hsl(0, 0%, 100%);
+	/* --colour-foreground: hsl(278, 73%, 19%); */
+	--colour-foreground: hsl(0, 0%, 0%);
+	--colour-primary: hsl(249, 46%, 85%);
+	--colour-primary-mid: hsl(249, 46%, 25%);
+	--colour-primary-hover: hsl(249, 68%, 85%);
+	--colour-primary-light: hsl(249, 46%, 90%);
+	--colour-light: hsl(210, 50%, 12%);
+}
+
+.toggle-mode .header {
+		background-color: rgba(58, 13, 84, .9);
+	}
+
+.toggle-mode .group-list-item {
+		--list-colour-mid: var(--colour-primary-mid);
+		background-color: var(--list-colour-mid);
+	}
+
+.toggle-mode .groups-list--link {
+		--group-colour-mid: var(--colour-primary-mid);
+		background-color: var(--group-colour-mid);
+	}
+
+.toggle-mode .toggle-list-item {
+		background-color: var(--colour-background);
+		color: var(--colour-primary-mid);
+	}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+:-moz-focusring {
+	outline: auto;
+}
+
+:focus {
+	outline: var(--colour-links) solid 2px;
+	outline-offset: 2px;
+}
+
+html,
+body {
+	background-color: var(--colour-foreground);
+	color: var(--colour-background);
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-repeat: no-repeat;
+	font-family: var(--font-body);
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	min-height: 100vh;
+	min-height: calc(100vh - env(safe-area-inset-bottom));
+}
+
+a {
+	color: var(--colour-primary);
+	text-decoration: none;
+}
+
+a:hover {
+	color: var(--colour-primary-hover);
+	text-decoration: underline;
+}
+
+hr {
+	background-color: var(--colour-border);
+	border: 0;
+	display: block;
+	height: 1px;
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-display);
+	font-weight: 500;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+}
+
+h2 {
+	font-size: 2rem;
+	line-height: 3rem;
+}
+
+h3 {
+	font-size: 1.75rem;
+	line-height: 2.75rem;
+}
+
+h4 {
+	font-size: 1.625rem;
+	line-height: 2.75rem;
+}
+
+h5,
+h6 {
+	font-size: 1.375rem;
+	line-height: 2.25rem;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.sr-only {
+	border-width: 0;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: calc(100% - var(--gutter) * 2);
+	width: 1440px;
+}
